@@ -59,7 +59,7 @@ Future updates will feature **Dockerized execution** and a **Binder container** 
 ## Use Case Diagrams
 The following diagram illustrates how different actors interact with the system:
 
-![Use Case Diagram](./images/use_case_diagram.png)
+![Use Case Diagram](./images/use_case_diagram .png)
 
 cd Multi-Purpose-AI-Agent-Framework
 Install dependencies:
