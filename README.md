@@ -63,8 +63,8 @@ The following diagram illustrates how different actors interact with the system:
 
 cd Multi-Purpose-AI-Agent-Framework
 Install dependencies:
-
-##Authors & Contributions
+---
+## Authors & Contributions
 Prudhvi Kandregula @ksomeswara ,Vamshi Krishnam @vkrishna - System Architecture, Backend, API Design,AI Agent Development, Frontend, Database Management
-Mentor 
+## Mentor 
 tyson swetnam @tyson-swetnam
