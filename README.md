@@ -1,12 +1,21 @@
-##Multi-Purpose AI Agent Framework
+# Multi-Purpose AI Agent Framework
 
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-#A compendium of code, data, and author's manuscript accompanying the manuscript:
-#Multi-Purpose AI Agent Framework: A Versatile Approach for Agent-Orchestrated Collaboration
-##Overview
-#This repository is structured as a reproducible research compendium for the Multi-Purpose AI Agent Framework. It includes the complete implementation, experimental results, and supporting #materials. Future updates will feature Dockerized execution and a Binder container for easy deployment and reproducibility.
+## A compendium of code, data, and author's manuscript accompanying the manuscript:
 
-##File Organization
+#### Multi-Purpose AI Agent Framework: A Versatile Approach for Agent-Orchestrated Collaboration
+
+---
+
+## Overview
+This repository is structured as a **reproducible research compendium** for the **Multi-Purpose AI Agent Framework**.  
+It includes the complete implementation, experimental results, and supporting materials.  
+Future updates will feature **Dockerized execution** and a **Binder container** for easy deployment and reproducibility.
+
+---
+
+## File Organization
 
 📂 Multi-Purpose-AI-Agent-Framework/
 │
