@@ -63,6 +63,25 @@ The following diagram illustrates how different actors interact with the system:
 
 cd Multi-Purpose-AI-Agent-Framework
 Install dependencies:
+2. 🛳️ Clone the Repository
+git clone git@github.com:OpenBMB/IoA.git
+cd IoA
+3. 🏗️ Build Docker Images
+Core Components
+You can directly pull the pre-built docker images from docker hub:
+
+docker pull multi-purpose-ai-server:latest
+
+# Client
+docker pull multi-purpose-ai-client:latest
+
+# Server Frontend
+docker pull multi-purpose-ai-frontend:latest
+
+# Rename the images
+docker tag multi-purpose-ai-frontend:latest multi-purpose-ai-server:latest
+docker tag multi-purpose-ai-client:latest multi-purpose-ai-client:latest
+docker tag multi-purpose-ai-frontend:latest multi-purpose-ai-frontend:latest
 ---
 ## Authors & Contributions
 Prudhvi Kandregula @ksomeswara ,Vamshi Krishnam @vkrishna - System Architecture, Backend, API Design,AI Agent Development, Frontend, Database Management
