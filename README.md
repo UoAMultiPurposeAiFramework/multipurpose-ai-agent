@@ -62,9 +62,10 @@ The following diagram illustrates how different actors interact with the system:
 ![Use Case Diagram](./images/use_case_diagram.png)
 
 cd Multi-Purpose-AI-Agent-Framework
+1.
 Install dependencies:
 2. 🛳️ Clone the Repository
-git clone git@github.com:OpenBMB/IoA.git
+
 cd IoA
 3. 🏗️ Build Docker Images
 Core Components
