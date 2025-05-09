@@ -10,7 +10,7 @@
 
 ## Overview
 This repository is structured as a **reproducible research compendium** for the **Multi-Purpose AI Agent Framework**.  
-It includes the complete implementation, experimental results, and supporting materials.  
+It includes the complete implementation techinques , Project Structure, and supporting materials.  
 Future updates will feature **Dockerized execution** and a **Binder container** for easy deployment and reproducibility.
 
 ---
