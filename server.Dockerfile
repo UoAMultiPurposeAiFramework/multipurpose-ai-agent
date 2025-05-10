@@ -9,7 +9,7 @@ WORKDIR /app
 
 # Copy the current directory contents into container at /app
 COPY ./im_server/requirements.txt ./
-RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple && pip install --no-cache-dir -r requirements.txt
+RUN  pip install --no-cache-dir -r requirements.txt
 COPY ./im_server ./
 COPY ./common ./common
 
