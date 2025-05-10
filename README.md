@@ -31,10 +31,8 @@ Future updates will feature **Dockerized execution** and a **Binder container** 
 │       └── 📁 supplementaryTables/   # Supporting tables  
 │
 ├── 📁 src/                  # Source code for the framework  
-│   ├── backend/             # Flask/FastAPI/Java Spring Boot backend code  
-│   ├── frontend/            # Angular/React UI components  
-│   ├── agents/              # AI agents for PDF, MySQL, Milvus, API, etc.  
-│   └── scripts/             # Scripts for Kafka Topics , task automation  
+│   ├── backend/             # Flask/FastAPI Boot backend code             
+│   ├── agents/             
 │
 ├── 📁 docs/                 # Documentation, research papers, UML diagrams  
 │
@@ -71,18 +69,22 @@ cd IoA
 Core Components
 You can directly pull the pre-built docker images from docker hub:
 
-docker pull multi-purpose-ai-server:latest
-
 # Client
-docker pull multi-purpose-ai-client:latest
 
-# Server Frontend
-docker pull multi-purpose-ai-frontend:latest
+```bash
+docker pull ksprudhvi/multi-purpose-ai-client:latest
+```
+# Server  
+```bash
+docker pull ksprudhvi/multi-purpose-ai-server:latest
+```
 
-# Rename the images
-docker tag multi-purpose-ai-frontend:latest multi-purpose-ai-server:latest
-docker tag multi-purpose-ai-client:latest multi-purpose-ai-client:latest
-docker tag multi-purpose-ai-frontend:latest multi-purpose-ai-frontend:latest
+# Launch Milvus Service
+```bash
+docker network create agent_network
+docker-compose -f dockerfiles/compose/milvus.yaml up
+```
+
 ---
 ## Authors & Contributions
 Prudhvi Kandregula @ksomeswara ,Vamshi Krishnam @vkrishna - System Architecture, Backend, API Design,AI Agent Development, Frontend, Database Management
