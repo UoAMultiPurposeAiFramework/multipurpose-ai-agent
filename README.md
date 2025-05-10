@@ -54,10 +54,7 @@ Future updates will feature **Dockerized execution** and a **Binder container** 
 ![Multi-Purpose AI Framework](./images/system_architecture.png)
 
 
-## Use Case Diagrams
-The following diagram illustrates how different actors interact with the system:
 
-![Use Case Diagram](./images/use_case_diagram.png)
 
 cd Multi-Purpose-AI-Agent-Framework
 1.
@@ -83,6 +80,10 @@ docker pull ksprudhvi/multi-purpose-ai-server:latest
 ```bash
 docker network create agent_network
 docker-compose -f dockerfiles/compose/milvus.yaml up
+```
+```bash
+cd ../../
+docker-compose -f dockerfiles/compose/open_instruction.yaml up
 ```
 
 ---
