@@ -1,3 +1,5 @@
+from __future__ import annotations
+
 import json
 import uuid
 from copy import deepcopy
@@ -183,7 +185,7 @@ async def register_agent(agent: AgentInfo):
 
 @app.post("/retrieve_assistant")
 async def retrieve_assistant(
-    characteristics: AgentRegistryRetrivalParam,
+        characteristics: AgentRegistryRetrivalParam,
 ) -> list[AgentInfo]:
     agents = await agent_registry.retrieve(characteristics)
     return agents
@@ -191,7 +193,7 @@ async def retrieve_assistant(
 
 @app.post("/query_assistant")
 async def query_assistant(
-    param: AgentRegistryQueryParam,
+        param: AgentRegistryQueryParam,
 ) -> list[AgentInfo] | AgentInfo:
     agents = await agent_registry.query(param.name)
     return agents
@@ -238,12 +240,11 @@ async def fetch_chat_record(param: ChatRecordFetchParam):
 
 connections.connect(
     alias="default",
-    user="username",
-    password="password",
-    # host="localhost",
-    host="standalone",
-    port="19530",
+    uri="https://in03-44fb6fa0320b39b.serverless.gcp-us-west1.cloud.zilliz.com",
+    port=19530,
+    token="9437743638fe4df1d0d0ebf0ce341211fb4aa06f8218084a68f4894f6b83bb70c246f5b449032b084737d04a30540e57dd2ff458"
 )
+
 
 agent_registry = AgentRegistry()
 connection_manager = ConnectionManager()

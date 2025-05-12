@@ -2,7 +2,7 @@ fastapi
 uvicorn
 pymilvus
 colorama
-openai==1.3.0
+openai==1.71.0
 pyyaml
 sqlitedict
 websockets
