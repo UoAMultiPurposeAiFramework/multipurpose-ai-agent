@@ -10,7 +10,8 @@ app = Flask(__name__)
 if not USE_MOCK:
     from openai import OpenAI
     load_dotenv()
-    client = OpenAI(api_key)
+    #pass Api Key
+    client = OpenAI()
 
 @app.route("/query", methods=["POST"])
 def generate_and_execute_sql():
