@@ -5,7 +5,8 @@ import os
 
 # Load API key from .env
 load_dotenv()
-client = OpenAI(api_key)
+#pass OpenAi Key
+client = OpenAI()
 
 app = Flask(__name__)
 
