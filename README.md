@@ -184,4 +184,4 @@ streamlit run streamlit_app.py
 ## Authors & Contributions
 Prudhvi Kandregula @ksomeswara ,Vamshi Krishnam @vkrishna - System Architecture, Backend, API Design,AI Agent Development, Frontend, Database Management
 ## Mentor 
-tyson swetnam @tyson-swetnam
+Dr .tyson swetnam @tyson-swetnam
