@@ -1,0 +1,10 @@
+{
+  "tables": {
+    "users": {
+      "columns": ["user_id", "name", "email"]
+    },
+    "transactions": {
+      "columns": ["id", "user_id", "amount", "category", "date"]
+    }
+  }
+}
